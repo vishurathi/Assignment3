@@ -1,0 +1,111 @@
+body{
+    background-color: #62859c;
+}
+.container{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    background-color: #0007;
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    padding-top: 40px;
+    border-radius: 100px;
+
+}
+
+
+/* 
+.progress{
+    width: 30%;
+    text-align: center;
+    margin-left: 40%;
+} */
+
+
+input[type=password], input[type=email], input[type=text]{
+    /* width: 70%; */
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: #0007;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    border-radius: 7px;
+    margin: 5px;
+    font-weight: bold;
+}
+#btn1, #btn2{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+    background: #d773f5;
+    opacity: 0.7;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+input[type=submit]{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+    /* background: #60adde; */
+    background: chocolate;
+    opacity: 0.7;
+    border-radius: 20px;
+    color: #fff;
+
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+input[type=submit]:hover{
+    background-color: crimson;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+
+
+
+table{
+    text-align: center;
+}
+table th{
+    background-color: darkgray;
+    color: #fff;
+}
+table td{
+    background-color: saddlebrown;
+    color: darksalmon;
+}
+
+table tr td{
+    width: 30%;
+}
+
+
+#logout{
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 5%;
+    background-color: #914d03;
+}
+#logout:hover{
+    background: darkred;
+}
